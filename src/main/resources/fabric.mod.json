@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "totally_lit_extras",
+  "version": "${version}",
+  "name": "Totally_lit_extras",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/totally_lit_extras/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.andrew6rant.totally_lit_extras.client.TotallyLitExtrasClient"
+    ],
+    "main": [
+      "io.github.andrew6rant.totally_lit_extras.TotallyLitExtras"
+    ]
+  },
+  "mixins": [
+    "totally_lit_extras.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=",
+    "minecraft": ""
+  }
+}
